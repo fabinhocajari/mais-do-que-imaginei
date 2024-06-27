@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
+:root {
+    --fonte1: 'Sriracha', cursive;
+    --fonte2: verdana, geneva, tahoma, sans-serif;
+}
+
+* {
+    padding: 0px;
+    margin: 0px;
+    border: 0px;
+}
+
+html, body {
+    height: 100vh;
+    background-color: darkgrey;
+}
+
+header {
+    text-align: center;
+    padding-top: 1vh;
+    padding-bottom: 1vh;
+    background-color: black
+}
+
+.container {
+    margin: auto;
+    display: inline-flex;
+    align-items: center;
+}
+
+div.profile > img {
+    display: flex;
+    border-radius: 50%;
+    width: 20vw;
+    border: 2px solid aliceblue;
+}
+
+div.titulo > h1, p {
+    font-family: var(--fonte2);
+    padding-left: 10px;
+    color: aliceblue;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+div.titulo > h1 {
+    font-size: 3.5vw;
+}
+
+div.titulo > p {
+    font-size: 2.5vw;
+}
+
+audio {
+    padding-left: 2vw;
+    height: 3vh;
+}
+
+div.titulo p > a {
+    color: aliceblue;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+div.titulo a:hover {
+    color: blue;
+    font-weight: bolder;
+    text-decoration: underline;
+    background-color: aliceblue;
+    padding: .5vh;
+    border-radius: .5vh;
+}
+
+section.container {
+    padding-top: 5vh;
+    padding-bottom: 5vh;
+    line-height: 1.5em;
+}
+
+main > section {
+    padding-top: 10vh;
+    padding-left: 30px;
+    line-height: 1.5em;
+}
+
+section > p {
+    padding-bottom: 2em;
+    line-height: 2em;
+}
+
+section.normal > p {
+    font-family: var(--fonte1);
+    background-color: darkgrey;
+    padding-bottom: 5vh;
+    text-align: left;
+    color: black;
+}
+
+section.imagem > p {
+    font-family: var(--fonte1);
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+    display: inline-flex;
+    object-position: left center;
+    text-align: left;
+    color: aliceblue;
+    box-shadow: -2px 0px 2px black;
+    background-color: rgba(0, 0, 0, 0.473);
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 10px;
+    text-shadow: 1px 1px 0px black;
+}
+
+section.imagem#sad {
+    background-image: url(../imagens/Captura\ de\ tela\ 2024-06-25\ 184531.png);
+    background-position: right, bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem#casal {
+    background-image: url(../imagens/Captura\ de\ tela\ 2024-06-25\ 184820.png);
+    background-position: right, bottom;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+section.imagem {
+    height: 40vh;
+    box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
+    background-color: rgb(51, 51, 51);
+    background-attachment: fixed;
+}
+
+footer {
+    text-align: center;
+    font-size: .7em;
+    background-color: black;
+    padding-top: 5px;
+}
