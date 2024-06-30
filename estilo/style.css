@@ -20,8 +20,8 @@ html, body {
 
 header {
     text-align: center;
-    padding-top: 1vh;
-    padding-bottom: 1vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
     background-color: black
 }
 
@@ -34,7 +34,7 @@ header {
 div.profile > img {
     display: flex;
     border-radius: 50%;
-    width: 20vw;
+    width: 100px;
     border: 2px solid aliceblue;
 }
 
@@ -47,16 +47,16 @@ div.titulo > h1, p {
 }
 
 div.titulo > h1 {
-    font-size: 3.5vw;
+    font-size: 2em;
 }
 
 div.titulo > p {
-    font-size: 2.5vw;
+    font-size: 1em;
 }
 
 audio {
-    padding-left: 2vw;
-    height: 3vh;
+    padding-left: 10px;
+    height: 25px;
 }
 
 div.titulo p > a {
@@ -70,18 +70,18 @@ div.titulo a:hover {
     font-weight: bolder;
     text-decoration: underline;
     background-color: aliceblue;
-    padding: .5vh;
-    border-radius: .5vh;
+    padding: 3px;
+    border-radius: 5px;
 }
 
 section.container {
-    padding-top: 5vh;
-    padding-bottom: 5vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
     line-height: 1.5em;
 }
 
 main > section {
-    padding-top: 10vh;
+    padding-top: 90px;
     padding-left: 30px;
     line-height: 1.5em;
 }
@@ -94,15 +94,15 @@ section > p {
 section.normal > p {
     font-family: var(--fonte1);
     background-color: darkgrey;
-    padding-bottom: 5vh;
+    padding-bottom: 80px;
     text-align: left;
     color: black;
 }
 
 section.imagem > p {
     font-family: var(--fonte1);
-    padding-top: 2vh;
-    padding-bottom: 2vh;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: inline-flex;
     object-position: left center;
     text-align: left;
@@ -130,7 +130,7 @@ section.imagem#casal {
 }
 
 section.imagem {
-    height: 40vh;
+    height: 300px;
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.479);
     background-color: rgb(51, 51, 51);
     background-attachment: fixed;
